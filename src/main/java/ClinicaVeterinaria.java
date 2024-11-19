@@ -425,6 +425,7 @@ Animal animal = buscarAnimal(nomeAnimalParaReceber);
         int idExame;
             idExame = Entrada.lerInt("Digite o ID do exame que deseja alterar");
         procurarExamePorId(idExame).atualizarResultado();
+            System.out.println("Notificando o dono do pet que realizou o exame...");
         }
     } //metodo de gerenciar
 
